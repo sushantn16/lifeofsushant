@@ -14,12 +14,21 @@ export default function Carousel() {
   return (
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        {data.map((blog) => (<SwiperSlide key={blog.id}><Image className="relative" src={blog.image} alt={blog.alt} height={100} width={300} />
-          <div className="absolute bottom-10 right-10">
-            <p className="text-light-orange">{blog.title}</p>
-            <Link className="text-orange" href={'blogs/' + blog.href}>Read More</Link>
-          </div>
-        </SwiperSlide>))}
+        {
+          data.map((blog) =>
+          (
+            <SwiperSlide key={blog.id}>
+              <div className="image-container max-h-96 object-cover">
+              <img src={blog.image} alt={blog.alt}/>
+              </div>
+              <div className="text-container absolute bottom-10 right-10 text-3xl">
+                <p className="text-light-orange">{blog.title}</p>
+                <Link className="text-orange" href={'blogs/' + blog.href}>Read More</Link>
+              </div>
+            </SwiperSlide>
+          )
+          )
+        }
       </Swiper>
     </>
   );
