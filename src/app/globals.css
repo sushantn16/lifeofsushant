@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.navigation-container ul li.active a{
+  border-bottom: 1px solid #EA3C12;
+}

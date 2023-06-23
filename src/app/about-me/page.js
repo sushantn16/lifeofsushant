@@ -6,9 +6,7 @@ export default function AboutMe() {
 
     return (
         <div className="page-container">
-            <h2 className="page-heading">
-                About Me
-            </h2>
+            
             <div className="page-content">
 
                 <div className="contact-me-section">
