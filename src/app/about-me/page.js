@@ -63,7 +63,7 @@ export default function AboutMe() {
                             </div>
                             <div className="flex flex-wrap -mx-3 mb-6">
                                 <div className="w-full px-3">
-                                    <button class="bg-light-oragne hover:bg-oragne text-white font-bold py-2 px-4 rounded">
+                                    <button className="bg-light-orange hover:bg-orange text-white font-bold py-2 px-4 rounded">
                                         Send Message
                                     </button>
                                 </div>
