@@ -43,7 +43,7 @@ export default function Header() {
           </svg>
         </button>
       </div>
-      <div className='dnavigation-container hidden md:block'>
+      <div className="navigation-container hidden md:block">
         <ul className="flex text-orange font-medium justify-center text-xl">
           <li className={pathname === "/" ? "active font-bold p-5" : "p-5 hover:font-bold"}>
             <Link href="/">Home</Link>
