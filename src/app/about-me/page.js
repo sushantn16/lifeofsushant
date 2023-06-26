@@ -5,11 +5,11 @@ export default function AboutMe() {
     var orange = "#EA3C12"
 
     return (
-        <div className="page-container mx-20">
+        <div className="page-container mx-8 md:mx-20">
 
             <div className="page-content">
                 <div className="text-justify mb-10">
-                    <img className="h-1/3 w-1/3 mr-10 mb-5 float-left" src="/images/about-me.jpeg" />
+                    <img className="md:h-1/3 md:w-1/3 md:mr-10 mb-5 float-left" src="/images/about-me.jpeg" />
 
                     Hi, I'm Sushant, and I'm thrilled to welcome you to my personal blog! Some of you may already know me from our encounters in Koblenz, while others might recognize me from my time in school or during my bachelor's degree. It's fascinating how I can be perceived as a different person by everyone I meet, but here, on this platform, I want to be my authentic self.
                     <br />

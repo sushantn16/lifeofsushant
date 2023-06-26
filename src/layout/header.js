@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="header-container flex justify-between md:justify-center p-5 pb-0">
+      <div className="header-container flex justify-between md:justify-center p-5 md:pb-0">
         <div className="logo">
           <Link href="/">
             <Image src="/logo.svg" width={500} height={300} alt="Logo" />
@@ -43,7 +43,7 @@ export default function Header() {
           </svg>
         </button>
       </div>
-      <div className={`navigation-container md:block ${isMenuOpen ? "hidden" : ""}`}>
+      <div className='dnavigation-container hidden md:block'>
         <ul className="flex text-orange font-medium justify-center text-xl">
           <li className={pathname === "/" ? "active font-bold p-5" : "p-5 hover:font-bold"}>
             <Link href="/">Home</Link>
