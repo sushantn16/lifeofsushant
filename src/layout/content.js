@@ -4,7 +4,7 @@ export default function Content(props) {
     return (
         <>
             <Breadcrumb title={props.blog.title} />
-            <div className="bg-white rounded p-10">
+            <div className="bg-white rounded p-4 md:p-10">
                 <div className="flex justify-between pb-4">
                     <p className="inline">{props.blog.date}</p>
                     <p className="inline">{props.blog.location}</p>
