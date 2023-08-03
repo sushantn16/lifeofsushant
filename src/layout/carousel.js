@@ -18,6 +18,7 @@ export default function Carousel() {
           data.map((blog) =>
           (
             <SwiperSlide key={blog.id}>
+              <Link href={`blogs/`+blog.href}>
               <div className="image-container max-h-96 object-cover">
               <img src={blog.image} alt={blog.alt}/>
               </div>
@@ -25,6 +26,7 @@ export default function Carousel() {
                 <p className="text-light-orange">{blog.title}</p>
                 <Link className="text-orange" href={'blogs/' + blog.href}>Read More</Link>
               </div>
+              </Link>
             </SwiperSlide>
           )
           )
