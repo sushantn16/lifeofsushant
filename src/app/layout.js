@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
       <DataProvider>
         <Header />
         <div className='container mx-auto pb-20'>
-          
           {children}
         </div>
         <Footer />
