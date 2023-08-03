@@ -1,4 +1,7 @@
+import Like from "@/app/components/Like"
+import Share from "@/app/components/Share"
 import Breadcrumb from "./breadcrumb"
+
 export default function Content(props) {
 
     return (
@@ -18,7 +21,10 @@ export default function Content(props) {
                     <div className="text-justify">
                     <p>{props.blog.content}</p>
                     </div>
-                    
+                </div>
+                <div className="content-menu my-5 flex justify-end">
+                    <Like />
+                    <Share />
                 </div>
             </div>
         </>

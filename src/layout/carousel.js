@@ -13,7 +13,7 @@ export default function Carousel() {
 
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="rounded">
         {
           data.map((blog) =>
           (
@@ -21,7 +21,7 @@ export default function Carousel() {
               <div className="image-container max-h-96 object-cover">
               <img src={blog.image} alt={blog.alt}/>
               </div>
-              <div className="text-container absolute bottom-10 right-10 text-3xl">
+              <div className="text-container md:absolute bottom-10 right-10 text-3xl">
                 <p className="text-light-orange">{blog.title}</p>
                 <Link className="text-orange" href={'blogs/' + blog.href}>Read More</Link>
               </div>
