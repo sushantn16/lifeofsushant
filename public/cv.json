@@ -1,0 +1,179 @@
+{
+    "data": {
+        "personal": {
+            "name": {
+                "first": "Sushant",
+                "last": "Nandwani"
+            },
+            "role": "Software Developer",
+            "email": "nandwanisushant@gmail.com",
+            "phone": "+49-1789399210",
+            "linkedin": "https://www.linkedin.com/in/sushantnandwani/",
+            "github": "https://www.github.com/sushantn16",
+            "city": "Koblenz",
+            "country": "Germany",
+            "image": "/images/about-me.jpeg"
+        },
+        "summary": {
+            "name": "Summary",
+            "data": "Dedicated and versatile software developer with a passion for frontend development and aspirations to become a full- stack developer. Based in Koblenz, Germany, I possess a proven track record of building intuitive user interfaces and efficient web applications. Proficient in technologies like React, Angular, HTML, CSS, JavaScript, and more. With a keen eye for optimisation and a commitment to continuous learning, I am eager to contribute my skills to impactful projects."
+        },
+        "professionalExperience": {
+            "name": "Professional Experience",
+            "data": [
+                {
+                    "id":1,
+                    "name": "Frontend Developer",
+                    "organisation": "Deloitte",
+                    "city": "Frankfurt",
+                    "country": "Germany",
+                    "duration": "01/2023 – 04/2023",
+                    "description": "Working as a frontend developer for aiStudio. My responsibilities are:•Development of user interfaces for different machine learning tools and applications using Angular and React. •Contributing to designing user interfaces to make them less complicated and easier to use.•Optimizing frontend code to make it perform better and faster."
+                },
+                {
+                    "id":2,
+                    "name": "Software Analyst",
+                    "organisation": "Capgemini",
+                    "city": "Bangalore",
+                    "country": "India",
+                    "duration": "04/2021 – 09/2022",
+                    "description": "Worked as a front-end developer for Amgen, on a web portal to be used by HCPs worldwide. My responsibilities were:•Building fast and scalable websites using modern web technologies such as ReactJS, HTML, CSS, JavaScript, and Bootstrap with Sitecore CMS(ver. 10.1).•Writing application-level code to interact with APIs, and Web Services using AJAX, JSON, and XML•Designing, building, and maintaining efficient, reusable, reliable secure, scalable, high-performing, and testable code. •Optimizing components for maximum performance across various web-capable devices and browsers."
+                },
+                {
+                    "id":3,
+                    "name": "Web Developer(Intern)",
+                    "organisation": "Softway",
+                    "city": "Bangalore",
+                    "country": "India",
+                    "duration": "07/2019 – 07/2019",
+                    "description": "Worked as a web developer intern on a project for online catering services. My tasks were:•Working as a back-end developer using PHP to maintain website integrity, security, and efficiency. •Developing a chatbot using Dialogflow."
+                }
+            ]
+        },
+        "education": {
+            "name": "Education",
+            "data": [
+                {
+                    "id":1,
+                    "name": "Masters of Science in Web and Data Science",
+                    "organisation": "University of Koblenz",
+                    "city": "Koblenz",
+                    "country": "Germany",
+                    "duration": "10/2022 – Present",
+                    "description": "Currently Enrolled"
+                },
+                {
+                    "id":2,
+                    "name": "Bachelor of Technology in Computer Science and Engineering",
+                    "organisation": "Kurukshetra University",
+                    "city": "Kurukshetra",
+                    "country": "India",
+                    "duration": "08/2016 – 09/2020",
+                    "description": "Currently Enrolled"
+                }
+            ]
+        },
+        "projects": {
+            "name": "Projects",
+            "data": [
+                {
+                    "id":1,
+                    "name": "LifeOfSushant",
+                    "organisation": "",
+                    "city": "",
+                    "country": "",
+                    "duration": "07/2023 – present",
+                    "description": "LifeOfSushant is an ongoing personal blog website where I curate and share my life experiences, tech insights, and interests.•Created and curated by a passionate software developer with a flair for writing.•Platform designed to offer diverse content, including technology-related topics and personal reflections. •Aims to engage and connect with a like-minded audience.•Provides valuable insights and stories to inspire and entertain readers.",
+                    "technologies-used": "NextJS, TailwingCSS, Vercel Cloud."
+                },
+                {
+                    "id":2,
+                    "name": "AmaCart",
+                    "organisation": "",
+                    "city": "",
+                    "country": "",
+                    "duration": "07/2023 – present",
+                    "description": "AmaCart is an e-commerce website that offers a seamless and user-friendly shopping experience for customers. •This Enabling users to explore a wide range of products, add items to their cart, and conveniently place orders.•I implemented an intuitive login system for users and an admin interface for store owners to manage their inventoryeffortlessly.",
+                    "technologies-used": "React JS, Google Firebase, Redux, CSS, HTML."
+                },
+                {
+                    "id":3,
+                    "name": "Social Network",
+                    "organisation": "",
+                    "city": "",
+                    "country": "",
+                    "duration": "04/2021 – 06/2021",
+                    "description": "Developed a social networking website which allows users to connect and socialise. Here, users can: •Edit and update user data.•Chat, post their thoughts and share images.•Networkandjoindifferentgroups. TechnologiesUsed:MongoDB,ExpressJs,ReactJs,NodeJs",
+                    "technologies-used": "Mongo DB, Express Js, React Js, Node Js"
+                },
+                {
+                    "id":4,
+                    "name": "E-Commerce",
+                    "organisation": "",
+                    "city": "",
+                    "country": "",
+                    "duration": "02/2020 – 06/2020",
+                    "description": "Developed an e-commerce website for a sports shop. It allows easy inventory management for business owners and a hassle-free shopping experience for users. Its main features are:•It can easily be customised for different businesses.•Itincludesachatbottosolvecustomerqueries.TechnologiesUsed:HTML,CSS,Javascript,PHP,SQL,Dialogflow,AWS.",
+                    "technologies-used": "HTML, CSS, Javascript, PHP, SQL, Dialogflow, AWS."
+                }
+            ]
+        },
+        "certification": {
+            "name": "Certification",
+            "data": [
+                {
+                    "id":1,
+                    "name": "Certified SAFe® 5 Practitioner",
+                    "organisation": "",
+                    "date": "",
+                    "href": ""
+                },
+                {
+                    "id":2,
+                    "name": "Azure AI Fundamentals",
+                    "organisation": "Microsoft",
+                    "date": "",
+                    "href": ""
+                },
+                {
+                    "id":3,
+                    "name": "Introduction to Cloud Computing",
+                    "organisation": "IBM",
+                    "date": "",
+                    "href": ""
+                },
+                {
+                    "id":4,
+                    "name": "Agile Software Development",
+                    "organisation": "University of Minnesota",
+                    "date": "",
+                    "href": ""
+                },
+                {
+                    "id":5,
+                    "name": "Front-End Web UI Frameworks and Tools",
+                    "organisation": "Hong Kong University of Science and Technology",
+                    "date": "",
+                    "href": ""
+                }
+            ]
+        },
+        "hobbies": {
+            "name": "Hobbies",
+            "data": [
+                "Running",
+                "Cooking",
+                "Reading"
+            ]
+        },
+        "languages": {
+            "name": "Languages",
+            "data": [
+                "English",
+                "Hindi",
+                "Punjabi",
+                "German"
+            ]
+        }
+    }
+}

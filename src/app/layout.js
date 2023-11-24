@@ -13,17 +13,30 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const isPersonalSegment = children.props.childProp.segment !== 'personal';
+
   return (
-    <html lang="en">
-      <body className={'bg-gold min-h-screen relative font-mono '+ inter.className} suppressHydrationWarning={true} >
-      <DataProvider>
-        <Header />
-        <div className='container mx-auto pb-20'>
-          {children}
-        </div>
-        <Footer />
-        </DataProvider>
-      </body>
+    <html lang="en"  suppressHydrationWarning={true}>
+
+          <body  className={ isPersonalSegment?'bg-gold min-h-screen relative font-mono ' + inter.className:""} >
+            {isPersonalSegment ?
+            <DataProvider>
+              <Header />
+              <div className='container mx-auto pb-20'>
+                {children}
+              </div>
+              <Footer />
+            </DataProvider>
+            :
+            <div className='container mx-auto pb-20'>
+              {children}
+            </div>
+            }
+            </body>
+        
+
+      
     </html>
   )
 }

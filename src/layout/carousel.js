@@ -15,7 +15,7 @@ export default function Carousel() {
     <>
       <Swiper navigation={true} modules={[Navigation]} className="rounded">
         {
-          data.map((blog) =>
+          data.slice(0,5).map((blog) =>
           (
             <SwiperSlide key={blog.id}>
               <Link href={`blogs/`+blog.href}>

@@ -1,4 +1,3 @@
-import Like from "@/app/components/Like"
 import Share from "@/app/components/Share"
 import Breadcrumb from "./breadcrumb"
 
@@ -23,8 +22,7 @@ export default function Content(props) {
                     </div>
                 </div>
                 <div className="content-menu my-5 flex justify-end">
-                    <Like />
-                    <Share />
+                    <Share url={window.location.href} title={props.blog.title} />
                 </div>
             </div>
         </>
