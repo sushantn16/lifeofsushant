@@ -8,7 +8,8 @@
             "image": "/images/amsterdam.webp",
             "alt": "amsterdam street",
             "href": "cold-amsterdam",
-            "location": "Koblenz, Germany"
+            "location": "Koblenz, Germany",
+            "likes":0
         },
         {
             "id": 2,
@@ -18,7 +19,8 @@
             "image": "/images/barcelona.jpg",
             "alt": "barcelona",
             "href": "barcelona-weekend",
-            "location": "Koblenz, Germany"
+            "location": "Koblenz, Germany",
+            "likes":0
         },
         {
             "id": 3,
@@ -28,7 +30,8 @@
             "image": "/images/running.jpeg",
             "alt": "running",
             "href": "running",
-            "location": "Koblenz, Germany"
+            "location": "Koblenz, Germany",
+            "likes":0
         },
         {
             "id": 4,
@@ -38,7 +41,8 @@
             "image": "/images/chicken.jpeg",
             "alt": "chicken tikka masala",
             "href": "chicken-tikka",
-            "location": "Koblenz, Germany"
+            "location": "Koblenz, Germany",
+            "likes":0
         }
     ]
 }

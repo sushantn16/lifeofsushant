@@ -1,8 +1,28 @@
+'use client'
 import Social from "@/layout/social";
+import { useState } from "react";
 
 export default function AboutMe() {
 
-    var orange = "#EA3C12"
+
+    var [mail, setMail] = useState({
+        name: '',
+        email: '',
+        message: ''
+    })
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setMail((state) => ({
+            ...state,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(mail);
+    }
 
     return (
         <div className="page-container mx-8 md:mx-20">
@@ -31,26 +51,26 @@ export default function AboutMe() {
                         </p>
                         <p>Contact on Social Media</p>
                         <div className="flex justify-center my-5">
-                            <Social color={orange} />
+                            <Social color="#EA3C12" />
                         </div>
                         <p>OR</p>
                         <p>Write your message here!</p>
                     </div>
 
                     <div className="justify-center flex mt-10">
-                        <form className="w-full max-w-lg">
+                        <form className="w-full max-w-lg" onSubmit={handleSubmit}>
                             <div className="flex flex-wrap -mx-3 mb-6">
                                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                     <label className="block text-grey text-s mb-1" htmlFor="name">
                                         Name
                                     </label>
-                                    <input className="appearance-none block w-full border border-light-orange rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-orange" id="name" type="text" placeholder="Sushant" />
+                                    <input className="appearance-none block w-full border border-light-orange rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-orange" name="name" id="name" type="text" placeholder="Sushant" value={mail.name} onChange={handleChange} />
                                 </div>
                                 <div className="w-full md:w-1/2 px-3">
                                     <label className="block text-grey text-s mb-1" htmlFor="email">
                                         Email
                                     </label>
-                                    <input className="appearance-none block w-full border border-light-orange rounded py-3 px-4 leading-tight focus:outline-none focus:border-orange focus:border-gray-500" id="email" type="text" placeholder="sushant@gmail.com" />
+                                    <input className="appearance-none block w-full border border-light-orange rounded py-3 px-4 leading-tight focus:outline-none focus:border-orange focus:border-gray-500" name="email" id="email" type="text" placeholder="sushant@gmail.com" value={mail.email} onChange={handleChange} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap -mx-3 mb-6">
@@ -58,12 +78,12 @@ export default function AboutMe() {
                                     <label className="block text-grey text-s mb-1" htmlFor="message">
                                         Message
                                     </label>
-                                    <textarea className="appearance-none block h-24 w-full border border-light-orange rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-orange focus:border-gray-500" id="message" placeholder="Write your message here!" />
+                                    <textarea className="appearance-none block h-24 w-full border border-light-orange rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-orange focus:border-gray-500" name="message" id="message" placeholder="Write your message here!" value={mail.message} onChange={handleChange} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap -mx-3 mb-6">
                                 <div className="w-full px-3">
-                                    <button className="bg-light-orange hover:bg-orange text-white font-bold py-2 px-4 rounded">
+                                    <button className="bg-light-orange hover:bg-orange text-white font-bold py-2 px-4 rounded" type="submit">
                                         Send Message
                                     </button>
                                 </div>
