@@ -18,7 +18,7 @@ export default function Content(props) {
                     <img src={props.blog.image} alt={props.blog.alt} />
                     </div>
                     <div className="text-justify">
-                    <p>{props.blog.content}</p>
+                    <pre style={{ whiteSpace: 'pre-wrap' }}>{props.blog.content}</pre>
                     </div>
                 </div>
                 <div className="content-menu my-5 flex justify-end">
