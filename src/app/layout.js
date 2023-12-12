@@ -14,7 +14,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-  const isPersonalSegment = children.props.childProp.segment !== 'personal';
+  const isPersonalSegment =
+  children.props && // Check if children.props is defined
+  children.props.childProp && // Check if children.props.childProp is defined
+  children.props.childProp.segment !== 'personal';
 
   return (
     <html lang="en"  suppressHydrationWarning={true}>
